@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://dl.dropbox.com/s/a9xkf4jninl169y/Palindrome%20Checker%20Background%402x.png?);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "item1"
+        "item2"
+        "item3"
+    ;
+    justify-content: center;
+}
+
+div {
+    display: inline-block;
+    justify-content: center;
+}
+
+#checker-input {
+    margin: 0;
+    grid-area: item2;
+    justify-self: center;
+    
+}
+
+#checker-button {
+    grid-area: item3;
+    justify-self: center;
+}
+
+input {
+    margin-top: 6rem;
+    padding: 5%;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    color: #FFD200;
+}
+
+button {
+    background-color: #FFD200;
+    margin-top: 10%;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    font-family: inherit;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-size: 4rem;
+    color: #FFD200;
+    transition: width 2s;
+}
+
+#byline {
+    display: flex;
+    color: #FFD200;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
